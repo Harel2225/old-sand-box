@@ -1,0 +1,10 @@
+<p>list works!</p>
+<div class="message">
+    <h4 class="theBoss"> {{message.serviceMessage}}</h4>
+</div>
+<app-employee *ngFor="let e of employeesList"
+[employee]="e"
+(edit)="onEmployeeEdit($event)">
+    
+</app-employee>    
+

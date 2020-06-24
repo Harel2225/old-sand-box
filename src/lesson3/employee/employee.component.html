@@ -1,0 +1,40 @@
+<div class="employee">
+
+    <div class="field">
+
+        <h4>
+            {{title.firstname}}
+
+        </h4>
+        <div>
+            {{employee?.firstname}}
+        </div>
+
+    </div>
+    <div class="field">
+        <h4>
+
+            {{title.lastname}}
+        </h4>
+        <div>
+            {{employee?.lastname}}
+        </div>
+
+    </div>
+    <div class="field">
+        <h4>
+
+            {{title.email}}
+        </h4>
+        <div>
+            {{employee?.email}}
+        </div>
+
+    </div>
+    <button (click)="onClick(employee)">
+        {{btn.show}}
+    </button>
+    <button (click)="print($event)">
+        click
+    </button>
+</div>

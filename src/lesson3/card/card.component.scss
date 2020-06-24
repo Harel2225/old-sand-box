@@ -1,0 +1,21 @@
+.card{
+    height: 400px;
+    width: 400px;
+    border: red solid 5px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    place-content: center;
+    margin: auto;
+}
+.fName, .lName, .email{
+    font-size: larger;
+    color: lightslategrey;
+}
+.id{
+    font-size: smaller;
+    color: lightsteelblue;
+}
+.img{
+    border-radius: 50%;
+    min-height: 15vh;
+}
